@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Calc Rate</title>
+
+	<link href="./css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+
+</head>
+<body class="container">
+	<section>
+		<h3>Calculate Rate</h3>
+		<form method="POST" id="calcForm">
+			<div class="row">
+				<div class="form-group col-sm-2">
+					<label >Initial Value</label>
+						<input type="text" class="form-control" id="initialValue" >
+				</div>	
+
+				<div class="form-group col-sm-2">
+					<label >Months</label>
+					<input type="text" class="form-control" id="qtMonth">
+				</div>	
+			</div>
+			<div class="row">
+				<div class="form-group col-sm-2">
+					<label >Return</label>
+					<input type="text" class="form-control" id="result"  readonly="true">
+				</div>	
+			</div>
+			<div  class="row">
+				<div class="form-group col-sm-2">
+					<button class="btn btn-lg btn-primary btn-block btn-signin" type="submit" id="calcvalues">Calculate</button>
+				</div>
+			</div>
+			<div  class="row">
+				<div class="form-group col-sm-2">
+					<button class="btn btn-lg btn-primary btn-block btn-signin" type="submit" id="gitHub">GitHub</button>
+				</div>
+
+			</div>
+		</form>
+	</section>
+</body>
+
+<script src="./js/jquery.min.js"></script>
+<script src="./js/bootstrap.min.js"></script>
+<script src="./js/scripts.js"></script>
+<script src="./js/idleTime.js"></script>
+
+</html>
